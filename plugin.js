@@ -43,7 +43,7 @@ export async function screen({ activeTheme, lang }) {
     return {
       type: "Card",
       key: "theme_" + t.id,
-      children children: [
+      children: [
         {
           type: "Column",
           padding: 16,
