@@ -1,11 +1,11 @@
 {
   "id": "susejing-themes",
   "name": "Susejing Themes",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "apiVersion": 20,
   "entry": "plugin.js",
-  "description": "Temas de marca Susejing, puente con la galería (repo Susejing/Susejing-Gallery), guía paso a paso y Haz tu tema.",
-  "descriptionEn": "Susejing brand themes, gallery bridge (repo Susejing/Susejing-Gallery), step-by-step guide and Make your theme.",
+  "description": "Temas de marca Susejing, puente con Gallery (puerta candidates), guia paso a paso y Haz tu tema.",
+  "descriptionEn": "Susejing brand themes, Gallery bridge (candidates door), step-by-step guide and Make your theme.",
   "hosts": [],
   "capabilities": ["screen"],
   "categories": ["themes"],
@@ -20,7 +20,7 @@
   "consumes": {
     "gallery": {
       "repo": "Susejing/Susejing-Gallery",
-      "door": "themeCandidates",
+      "door": "candidates",
       "calls": ["list"]
     }
   },
