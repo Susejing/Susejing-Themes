@@ -1,0 +1,170 @@
+{
+  "id": "susejing-themes",
+  "name": "Susejing Themes",
+  "version": "1.2.1",
+  "apiVersion": 20,
+  "entry": "plugin.js",
+  "description": "Temas de marca Susejing, puente con la galería (repo Susejing/Susejing-Gallery), guía paso a paso y Haz tu tema.",
+  "descriptionEn": "Susejing brand themes, gallery bridge (repo Susejing/Susejing-Gallery), step-by-step guide and Make your theme.",
+  "hosts": [],
+  "capabilities": ["screen"],
+  "categories": ["themes"],
+  "screen": {
+    "label": "Temas",
+    "labelEn": "Themes",
+    "icon": "palette",
+    "menuOpens": "screen",
+    "opensFrom": ["menu", "settings"]
+  },
+  "recommends": ["Susejing/Susejing-Gallery"],
+  "consumes": {
+    "gallery": {
+      "repo": "Susejing/Susejing-Gallery",
+      "door": "themeCandidates",
+      "calls": ["list"]
+    }
+  },
+  "appThemes": [
+    {
+      "id": "susejing-night",
+      "name": { "es": "Susejing Noche", "en": "Susejing Night" },
+      "colors": {
+        "accent": "#7C5CFF",
+        "onAccent": "#FFFFFF",
+        "background": "#0B0B14",
+        "surface": "#141422",
+        "surfaceHigh": "#1C1C2E",
+        "railPanel": "#10101A",
+        "textPrimary": "#F2F2F7",
+        "textSecondary": "#A8A8B8",
+        "focus": "#B39DFF",
+        "onFocus": "#0B0B14"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": ["#0B0B14", "#15102A"],
+        "angle": 165
+      },
+      "shape": {
+        "cardRadius": 16,
+        "buttonRadius": 22,
+        "chipRadius": 18,
+        "dialogRadius": 18,
+        "inputRadius": 12
+      },
+      "typography": { "scale": 1.0 },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": ["#7C5CFF", "#00E5FF", "#FF6BCB", "#FFB300"]
+        },
+        "shape.cardRadius": { "min": 0, "max": 24 },
+        "background": true
+      }
+    },
+    {
+      "id": "susejing-sakura",
+      "name": { "es": "Susejing Sakura", "en": "Susejing Sakura" },
+      "colors": {
+        "accent": "#FF6B9D",
+        "onAccent": "#1A0A12",
+        "background": "#120A10",
+        "surface": "#1C1218",
+        "surfaceHigh": "#2A1A22",
+        "railPanel": "#140C12",
+        "textPrimary": "#FFF0F5",
+        "textSecondary": "#C9A0B0",
+        "focus": "#FF9FBF",
+        "onFocus": "#120A10"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": ["#120A10", "#2A1020", "#1A0C18"],
+        "angle": 150
+      },
+      "shape": {
+        "cardRadius": 18,
+        "buttonRadius": 24,
+        "chipRadius": 20,
+        "dialogRadius": 20,
+        "inputRadius": 14
+      },
+      "typography": { "scale": 1.02 },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": ["#FF6B9D", "#FF8E53", "#C77DFF", "#7C5CFF"]
+        },
+        "background": true
+      }
+    },
+    {
+      "id": "susejing-cyan",
+      "name": { "es": "Susejing Cian", "en": "Susejing Cyan" },
+      "colors": {
+        "accent": "#00E5FF",
+        "onAccent": "#001418",
+        "background": "#060E12",
+        "surface": "#0C181C",
+        "surfaceHigh": "#122428",
+        "railPanel": "#081014",
+        "textPrimary": "#E8FBFF",
+        "textSecondary": "#8AB8C4",
+        "focus": "#5EFFFF",
+        "onFocus": "#060E12"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": ["#060E12", "#0A1A22", "#061018"],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 12,
+        "buttonRadius": 20,
+        "chipRadius": 16,
+        "dialogRadius": 16,
+        "inputRadius": 10
+      },
+      "typography": { "scale": 1.0 },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": ["#00E5FF", "#00FF9F", "#7C5CFF", "#FFB300"]
+        },
+        "background": true
+      }
+    },
+    {
+      "id": "susejing-ember",
+      "name": { "es": "Susejing Ascua", "en": "Susejing Ember" },
+      "colors": {
+        "accent": "#FF6B35",
+        "onAccent": "#1A0800",
+        "background": "#100806",
+        "surface": "#1A100C",
+        "surfaceHigh": "#281810",
+        "railPanel": "#120A08",
+        "textPrimary": "#FFF5EE",
+        "textSecondary": "#C4A090",
+        "focus": "#FFAA70",
+        "onFocus": "#100806"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": ["#100806", "#1A0C08", "#140A06"],
+        "angle": 200
+      },
+      "shape": {
+        "cardRadius": 14,
+        "buttonRadius": 22,
+        "chipRadius": 18,
+        "dialogRadius": 18,
+        "inputRadius": 12
+      },
+      "typography": { "scale": 1.0 },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": ["#FF6B35", "#FFB300", "#FF6B9D", "#7C5CFF"]
+        },
+        "background": true
+      }
+    }
+  ]
+}
